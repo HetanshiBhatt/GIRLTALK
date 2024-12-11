@@ -1,0 +1,113 @@
+
+
+body {
+    font-family: "Bubblegum Sans", sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+
+nav {
+    background-color: #e02b61;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    margin: 0px;
+    width: 100vw;  
+    box-sizing: border-box;
+    position: fixed; 
+    top: 0;
+    left: 0;
+   
+}
+
+.logo img {
+    width: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: #f0829c;
+}
+
+/* Hero section styling */
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: background-image 1s ease-in-out; /* Smooth transition */
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+    background: #ea4d7c;
+    opacity: 75%;
+    padding: 150px;
+    border-radius: 40px;
+    position: absolute;
+    top: 50px;
+    bottom: 50px; /* Positioned at the bottom of the hero section */
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    margin-bottom: 1px;
+}
+
+.hero-content p {
+    font-size: 35px;
+}
+
+/* Centering the image section */
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.a img {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Enlarge image on click */
+.enlarge {
+    transform: scale(1.2);
+}
+
+/* Footer styling (if you want to add one) */
+footer {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
